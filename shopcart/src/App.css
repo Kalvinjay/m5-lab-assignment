@@ -1,0 +1,102 @@
+.App {
+  text-align: left;
+  margin: 20px;
+}
+
+
+.header {
+  background-color: aqua;
+  height: 125px;
+  display: flex;
+  align-items: center;
+}
+.Shop {
+  flex-grow: 1;
+  margin-left: 40px; 
+}
+.cart-info {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.cart-info svg {
+  width: 24px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.item-count {
+  font-size: 14px;
+}
+.product {
+  border-bottom: 1px solid #ccc;
+  width: 3000px;
+  padding: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.product img {
+  margin-right: 10px;
+  height: 125px;
+  margin-left: 60px; 
+}
+
+.products {
+  float: left;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.product h3 {
+  font-size: 20px; 
+  font-weight: normal;
+  margin: 5px 0;
+  margin-left: 60px;
+}
+
+.product input {
+  width: 40px; 
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.product input::-webkit-outer-spin-button,
+.product input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.quantity-label {
+  font-size: 14px;
+}
+
+/* .product input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+} */
+
+/* .quantity-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px; 
+} */
+
+/* .quantity-container input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+} */
